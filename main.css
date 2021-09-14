@@ -1,0 +1,27 @@
+* {
+    font-size: 1.75vw;
+}
+
+h1 {
+    color: #FF3333;
+    font-size: 3.65vw;
+    font-family: Times;
+    cursor: pointer;
+}
+
+.box1 {
+    border-radius: 20px;
+    border: 10px solid #d31616;
+    background-color: #CC66FF;
+}
+
+#text1 {
+    overflow: auto;
+    background-color: #CC66FF;
+    width: 500px;
+    height: 300px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 3px solid #73AD21;
+}

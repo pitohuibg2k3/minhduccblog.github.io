@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--Đây là cách comment-->
+<!--
+    h1-h6 : ghi tiêu đề theo thứ tự nhỏ dần từ 1 đến 6 
+    p  : ghi văn bản
+    img : ảnh 
+    a : thẻ đặt liên kết
+    ul, li : tạo danh sách và các list
+    table : tạo bảng
+    input: nhập 
+    button :nút
+    div : tạo 1 khối bao quanh cho dễ nhìn 
+-->
+<!--
+    Có 3 cách sử dụng css 
+    1 : Internal : sử dụng trong file html <style></style>
+    2 : External : sử dụng bằng cách link với fil css bằng cú pháp <link rel="stylesheet" href="">
+    3 : Inline : sử dụng trực tiếp nuôn style=""
+-->
 
 <head>
     <!--đây là phần đầu-->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +31,19 @@
 <body>
     <div>
         <!--đây là phần thân -->
-        <h1>Xin chào mọi người mọi người đây là thông tin của mình nhá </h1>
-        <h2>Các bạn nghĩ tôi là nam hay nữ ?</h2>
+        <h1 class="box1">Xin chào mọi người mọi người đây là thông tin của mình nhá </h1>
+        <h2>Để lại danh tính của bạn ở đây</h2>
         <input name="gioi tinh" type="text">
-        <button>Lưu</button>
+        <button id="clickme" style="font-size:20px">Lưu</button>
         <p></p>
-        <img src="minhduc.png"></img>
+        <img src="minhduc.png" style="width: 100%"></img>
+        <p id="text1">JavaScript được tạo trong mười ngày bởi Brandan Eich, một nhân viên của Netscape, vào tháng 9 năm 1995. Được đặt tên đầu tiên là Mocha, tên của nó được đổi thành Mona rồi LiveScript trước khi thật sự trở thành JavaScript nổi tiếng như bây giờ.
+            Phiên bản đầu tiên của ngôn ngữ này bị giới hạn độc quyền bởi Netscape và chỉ có các tính năng hạn chế, nhưng nó tiếp tục phát triển theo thời gian, nhờ một phần vào cộng đồng các lập trình viên đã liên tục làm việc với nó. Trong năm 1996,
+            JavaScript được chính thức đặt tên là ECMAScript. ECMAScript 2 phát hành năm 1998 và ECMAScript 3 tiếp tục ra mắt vào năm 1999. Nó liên tục phát triển thành JavaScript ngày nay, giờ đã hoạt động trên khắp mọi trình duyệt và trên khắp các thiết
+            bị từ di động đến máy tính bàn. JavaScript liên tục phát triển kể từ đó, có lục đạt đến 92% website đang sử dụng JavaScript vào năm 2016. Chỉ trong 20 năm, nó từ một ngôn ngữ lập trình riêng trở thành công cụ quan trọng nhất trên bộ công cụ
+            của các chuyên viên lập trình web. Nếu bạn đang dùng internet, vậy chắc chắn bạn đã từng sử dụng JavaScript rồi.
+        </p>
+        <iframe width="560" height="315" src="https://spankbang.com/2zrag/embed/" frameborder="0" scrolling="no" allowfullscreen></iframe>
         <a href="https://www.facebook.com/profile.php?id=100027006035373">
             <h2>Facebook của mình</h2>
         </a>
@@ -98,8 +124,10 @@
             </tbody>
         </table>
     </div>
+
 </body>
 
-
+<script src="javascript/main.js"></script>
+<link rel="stylesheet" href="main.css">
 
 </html>
