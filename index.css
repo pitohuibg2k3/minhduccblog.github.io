@@ -1,0 +1,29 @@
+* {
+    margin: 0px
+}
+
+.mainlogo {
+    width: 12%;
+    height: 12%;
+    border-radius: 50px;
+}
+
+#inf {
+    border: 1px solid rgb(221, 211, 211);
+    border-right: 0;
+    border-left: 0;
+    font-size: 2vw;
+    Text-align: center;
+    background-color: rgb(225, 162, 202);
+}
+
+h2 {
+    font-size: 1vw;
+}
+
+#logo {
+    Text-align: center;
+    padding: 20px 10px;
+    background: rgb(225, 162, 202);
+    background: url(background.png);
+}

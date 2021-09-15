@@ -1,133 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--Đây là cách comment-->
-<!--
-    h1-h6 : ghi tiêu đề theo thứ tự nhỏ dần từ 1 đến 6 
-    p  : ghi văn bản
-    img : ảnh 
-    a : thẻ đặt liên kết
-    ul, li : tạo danh sách và các list
-    table : tạo bảng
-    input: nhập 
-    button :nút
-    div : tạo 1 khối bao quanh cho dễ nhìn 
--->
-<!--
-    Có 3 cách sử dụng css 
-    1 : Internal : sử dụng trong file html <style></style>
-    2 : External : sử dụng bằng cách link với fil css bằng cú pháp <link rel="stylesheet" href="">
-    3 : Inline : sử dụng trực tiếp nuôn style=""
--->
 
 <head>
-    <!--đây là phần đầu-->
-    <link rel="icon" href="icon1.png" type="image/gif" sizes="16x16">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page cá nhân </title>
+    <title>Blog cá nhân</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="webicon.png">
 </head>
 
 <body>
-    <div>
-        <!--đây là phần thân -->
-        <h1 class="box1">Xin chào mọi người mọi người đây là thông tin của mình nhá </h1>
-        <h2>Để lại danh tính của bạn ở đây</h2>
-        <input name="gioi tinh" type="text">
-        <button id="clickme" style="font-size:20px">Lưu</button>
-        <p></p>
-        <img src="minhduc.png" style="width: 100%"></img>
-        <p id="text1">JavaScript được tạo trong mười ngày bởi Brandan Eich, một nhân viên của Netscape, vào tháng 9 năm 1995. Được đặt tên đầu tiên là Mocha, tên của nó được đổi thành Mona rồi LiveScript trước khi thật sự trở thành JavaScript nổi tiếng như bây giờ.
-            Phiên bản đầu tiên của ngôn ngữ này bị giới hạn độc quyền bởi Netscape và chỉ có các tính năng hạn chế, nhưng nó tiếp tục phát triển theo thời gian, nhờ một phần vào cộng đồng các lập trình viên đã liên tục làm việc với nó. Trong năm 1996,
-            JavaScript được chính thức đặt tên là ECMAScript. ECMAScript 2 phát hành năm 1998 và ECMAScript 3 tiếp tục ra mắt vào năm 1999. Nó liên tục phát triển thành JavaScript ngày nay, giờ đã hoạt động trên khắp mọi trình duyệt và trên khắp các thiết
-            bị từ di động đến máy tính bàn. JavaScript liên tục phát triển kể từ đó, có lục đạt đến 92% website đang sử dụng JavaScript vào năm 2016. Chỉ trong 20 năm, nó từ một ngôn ngữ lập trình riêng trở thành công cụ quan trọng nhất trên bộ công cụ
-            của các chuyên viên lập trình web. Nếu bạn đang dùng internet, vậy chắc chắn bạn đã từng sử dụng JavaScript rồi.
-        </p>
-        <iframe width="560" height="315" src="https://spankbang.com/2zrag/embed/" frameborder="0" scrolling="no" allowfullscreen></iframe>
-        <a href="https://www.facebook.com/profile.php?id=100027006035373">
-            <h2>Facebook của mình</h2>
-        </a>
-        <ul>
-            <li> Tiểu sử </li>
-            <li>Sở thích </li>
+    <!-- begin header -->
+    <header>
+        <div id="logo">
+            <img class="mainlogo" src="mainlogo.gif">
+            <i><h2>Blog của pro player</h2></i>
+        </div>
 
-        </ul>
-        <table>
-            <!-- đây là bảng ghi lại lớp hạnh kiểm và học lực qua các năm-->
-            <thead>
-                <th>Lớp</th>
-                <th>Học lực</th>
-                <th>Hạnh Kiểm</th>
-            </thead>
+        <nav Id="inf">
+            <i>
+            <a href="https://www.facebook.com/profile.php?id=100027006035373">Facebook</a> |
+            <a href="https://www.instagram.com/raker1912/">Instagram</a> |
+            <a href="https://www.youtube.com/channel/UCJRPPveGbFObdBwwOTThhCg">YouTube</a> |
+            <a href="">Twitter</a> |
+            <a href="https://www.facebook.com/100013678592616.RaidFIT">Idol</a>
+            </i>
+        </nav>
 
-            <tbody>
-                <tr>
-                    <td>1C</td>
-                    <td>Giỏi</td>
-                    <td>Tốt</td>
-                </tr>
-                <tr>
-                    <td>2C</td>
-                    <td>Giỏi</td>
-                    <td>Tốt</td>
-                </tr>
-                <tr>
-                    <td>3C</td>
-                    <td>Giỏi</td>
-                    <td>Tốt</td>
-                </tr>
-                <tr>
-                    <td>4C</td>
-                    <td>Giỏi</td>
-                    <td>Tốt</td>
-                </tr>
-                <tr>
-                    <td>5C</td>
-                    <td>Giỏi</td>
-                    <td>Tốt</td>
-                </tr>
-                <tr>
-                    <td>6A</td>
-                    <td>Giỏi</td>
-                    <td>Tốt</td>
-                </tr>
-                <tr>
-                    <td>7A</td>
-                    <td>Giỏi</td>
-                    <td>Tốt</td>
-                </tr>
-                <tr>
-                    <td>8A</td>
-                    <td>Giỏi</td>
-                    <td>Tốt</td>
-                </tr>
-                <tr>
-                    <td>9A</td>
-                    <td>Giỏi</td>
-                    <td>Tốt</td>
-                </tr>
-                <tr>
-                    <td>10A8</td>
-                    <td>Khá</td>
-                    <td>Khá</td>
-                </tr>
-                <tr>
-                    <td>11A9</td>
-                    <td>Khá</td>
-                    <td>Tốt</td>
-                </tr>
-                <tr>
-                    <td>12A9</td>
-                    <td>Giỏi</td>
-                    <td>Tốt</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
+    </header>
+    <!-- end header -->
+    <aside>
+        <main>
+            <h1>Tạm thời đang cập nhật vui lòng đợi trong vài ngày tới</h1>
+        </main>
+    </aside>
+    <div id="animation"></div>
 </body>
-
-<script src="javascript/main.js"></script>
-<link rel="stylesheet" href="main.css">
 
 </html>
